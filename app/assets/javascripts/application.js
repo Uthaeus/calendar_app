@@ -11,5 +11,10 @@
 // about supported directives.
 //
 //= require rails-ujs
+//= require jquery
+//= require moment
+//= require fullcalendar
 //= require turbolinks
 //= require_tree .
+
+$('#calendar').fullCalendar({});
